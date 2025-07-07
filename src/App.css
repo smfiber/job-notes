@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.notebook-panel {
+  width: 250px;
+  border-right: 1px solid #dee2e6;
+  padding: 1rem;
+}
+
+.page-list {
+  width: 300px;
+  border-right: 1px solid #dee2e6;
+  padding: 1rem;
+}
+
+.note-editor {
+  flex-grow: 1;
+  padding: 1rem;
+}
